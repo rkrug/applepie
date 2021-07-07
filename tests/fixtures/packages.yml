@@ -1,0 +1,42 @@
+http_interactions:
+- request:
+    method: get
+    uri: https://leef-uzh.r-universe.dev/packages
+    body:
+      encoding: ''
+      string: ''
+    headers:
+      Accept: application/json, text/xml, application/xml, */*
+      Content-Type: ''
+  response:
+    status:
+      status_code: 200
+      category: Success
+      reason: OK
+      message: 'Success: (200) OK'
+    headers:
+      server: nginx/1.18.0
+      date: Wed, 07 Jul 2021 08:03:33 GMT
+      content-type: application/json; charset=utf-8
+      content-length: '239'
+      connection: keep-alive
+      x-powered-by: Express
+      access-control-allow-origin: '*'
+      etag: W/"ef-xZPqoUTd35sx0/L1ou2SI4Htkus"
+    body:
+      encoding: UTF-8
+      file: no
+      string: |-
+        [
+          "LEEF",
+          "LEEF.archive.default",
+          "LEEF.backend.sqlite",
+          "LEEF.measurement.bemovi",
+          "LEEF.measurement.flowcam",
+          "LEEF.measurement.flowcytometer",
+          "LEEF.measurement.manualcount",
+          "LEEF.measurement.o2meter",
+          "bemovi.LEEF"
+        ]
+  recorded_at: 2021-07-07 08:03:33 GMT
+  recorded_with: vcr/1.0.2, webmockr/0.8.0
