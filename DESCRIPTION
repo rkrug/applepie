@@ -17,4 +17,9 @@ URL: https://github.com/rkrug/applepie
 BugReports: https://github.com/rkrug/applepie/issues
 Imports: 
     httr,
-    jsonlite
+    jsonlite,
+    tibble,
+    withr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
